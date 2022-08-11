@@ -36,7 +36,7 @@ const mockedGetByTypeReturn = {
   results: [
     {
       uid: 'como-utilizar-hooks',
-      first_publication_date: '2021-03-15T19:25:28+0000',
+      first_publication_date: '2022-08-10T21:23:28+0000',
       data: {
         title: 'Como utilizar Hooks',
         subtitle: 'Pensando em sincronização em vez de ciclos de vida',
@@ -45,7 +45,7 @@ const mockedGetByTypeReturn = {
     },
     {
       uid: 'criando-um-app-cra-do-zero',
-      first_publication_date: '2021-03-25T19:27:35+0000',
+      first_publication_date: '2022-08-10T21:23:35+0000',
       data: {
         title: 'Criando um app CRA do zero',
         subtitle:
@@ -94,7 +94,7 @@ describe('Home', () => {
             results: [
               {
                 uid: 'criando-um-app-cra-do-zero',
-                first_publication_date: '2021-03-25T19:27:35+0000',
+                first_publication_date: '2022-08-10T21:27:35+0000',
                 data: {
                   title: 'Criando um app CRA do zero',
                   subtitle:

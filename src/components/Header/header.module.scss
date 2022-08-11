@@ -1,1 +1,11 @@
 // TODO
+.header{
+    height:170px;
+    padding: 79.75px 0 62.82px 0;
+    .header_logo{
+        transition: filter 0.3s;
+    }
+    .header_logo:hover{
+        filter: brightness(0.8);
+    }
+}

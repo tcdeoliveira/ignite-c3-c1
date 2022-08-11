@@ -1,1 +1,60 @@
 // TODO
+.section{
+    article{
+        & + article{
+            margin-top: 48px !important;
+        }
+        h3{
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 1.75rem;
+            line-height: 2.1rem;
+            margin: 0;
+            color: var(--gray-100);
+            cursor: pointer;
+            transition:filter 0.3s;
+            -moz-transition:filter 0.3s;
+            -o-transition:filter 0.3s;
+            &:hover {
+                filter:brightness(0.8);
+            }
+        }
+        p{
+            margin: 0.5rem 0 1.75rem 0;            
+            font-family: 'Inter';
+            font-size: 1.1rem;
+            line-height: 1.3rem;
+            color:var(--gray-300);
+            cursor: pointer;
+            transition:filter 0.3s;
+            -moz-transition:filter 0.3s;
+            -o-transition:filter 0.3s;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+                filter:brightness(0.8);
+            }
+        }
+        div{
+            font-size: 0.87rem;
+            line-height: 1.1rem;
+            color:var(--gray-400);
+            time{
+            }
+            span{
+                margin-left: 1.5rem;
+            }
+        }
+    }
+    .load_more_posts_button{
+        margin-top: 4rem;
+        background-color: transparent;
+        background:none;
+        border:none;
+        color: var(--primary);
+        transition: filter 0.3s;
+        -o-transition: filter 0.3s;
+        -moz-transition: filter 0.3s;
+        &:hover { filter:brightness(0.8); }
+    }
+}
