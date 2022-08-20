@@ -1,1 +1,55 @@
-// TODO
+.bannerImage{
+  width: 100%;
+  height: auto;
+}
+
+.sectionContainer{
+  margin: 0 auto;
+  padding: 80px 0px;  
+  max-width: 721px;
+  h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+    color: #F8F8F8;
+    margin-bottom: 24px;
+  }
+  ul{
+    margin-bottom: 64px;
+    height: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    li{
+      list-style: none;
+      margin-right: 25px;
+      svg{
+        margin-right: 8px;
+      }
+    }
+  }
+  article{
+    h2{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 140%;
+      text-align: justify;
+      color: #F8F8F8;
+      margin: 24px 0;
+    }
+    div{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      text-align: justify;
+      color: #D7D7D7;
+    }
+  }
+}
